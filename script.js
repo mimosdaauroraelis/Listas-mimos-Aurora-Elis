@@ -154,6 +154,14 @@ document.addEventListener("click", (e) => {
 
 });
 
+// ---------- CANCELAR ----------
+
+cancelarReserva.addEventListener("click", () => {
+
+    modal.classList.add("oculto");
+
+});
+
 // ---------- FIREBASE ----------
 
 onSnapshot(collection(db, "reservas"), (snapshot) => {
