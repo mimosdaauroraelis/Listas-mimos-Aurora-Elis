@@ -373,11 +373,11 @@ async function carregarAreaMamae() {
                     </div>
 
                     <button
-                        class="btn-cancelar"
-                        data-id="${reserva.id}"
-                    >
-                        ❌
-                    </button>
+    class="btn-cancelar"
+    data-id="${reserva.id}"
+>
+    Cancelar reserva
+</button>
 
                 </div>
 
