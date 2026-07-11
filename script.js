@@ -240,3 +240,19 @@ onSnapshot(collection(db, "reservas"), (snapshot) => {
 // ---------- PRIMEIRA RENDERIZAÇÃO ----------
 
 renderizarLista();
+
+const painelMamae = document.getElementById("painelMamae");
+const abrirMamae = document.getElementById("abrirMamae");
+const fecharPainel = document.getElementById("fecharPainel");
+
+abrirMamae.addEventListener("click", () => {
+
+    painelMamae.classList.remove("oculto");
+
+});
+
+fecharPainel.addEventListener("click", () => {
+
+    painelMamae.classList.add("oculto");
+
+});
