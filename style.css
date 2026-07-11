@@ -124,11 +124,17 @@ letter-spacing:.5px;
 
 .hero p{
 
-font-size:1.05rem;
+font-size:1.15rem;
 
 color:#8B7673;
 
-margin-bottom:35px;
+margin-bottom:28px;
+
+max-width:720px;
+
+margin-left:auto;
+
+margin-right:auto;
 
 }
 
@@ -148,13 +154,14 @@ border-radius:999px;
 
 box-shadow:var(--sombra);
 
-margin-bottom:30px;
+margin-bottom:25px;
 
 font-weight:600;
 
 }
 
 #pesquisa{
+margin-top:5px;    
 
 width:100%;
 
@@ -628,7 +635,7 @@ transform:translateY(0) scale(1);
 }
 
 /* ===========================
-   TOPO AURORA
+   LOGO DA AURORA
 =========================== */
 
 .logo-aurora{
@@ -637,20 +644,15 @@ display:flex;
 
 justify-content:center;
 
-margin-bottom:35px;
+margin-bottom:20px;
 
 }
 
 .logo-aurora img{
 
-width:650px;
-
-max-width:95%;
-
+width:420px;
+max-width:90%;
 height:auto;
-
 display:block;
-
-margin:auto;
 
 }
